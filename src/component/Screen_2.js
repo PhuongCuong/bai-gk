@@ -26,7 +26,6 @@ const Screen_2 = ({navigation}) =>{
             let listaccountparent = [...listaccount];
             navigation.navigate("screen3",{listaccountparent})
         }
-     
     },[listaccount])
 
 

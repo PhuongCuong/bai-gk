@@ -18,7 +18,6 @@ export default function App() {
         <Stack.Screen name='screen2' component={Screen_2}/>
         <Stack.Screen name='screen3' component={Screen_3}/>
         <Stack.Screen name='screen4' component={Screen_4}/>
-
       </Stack.Navigator>
     </NavigationContainer>
   );
