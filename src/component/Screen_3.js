@@ -1,6 +1,9 @@
 import {Image, Pressable, Text, TextInput, View} from "react-native"
 
-const Screen_3 = () =>{
+const Screen_3 = ({navigation,route}) =>{
+
+    console.log('check route',route)
+
     return(
         <View style={{flex:10}}>
             <View style={{flex:3}}>
